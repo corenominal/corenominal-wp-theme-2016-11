@@ -1,0 +1,687 @@
+html {
+	margin: 0;
+	padding: 0;
+	background: #191919;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #191919;
+	min-height: 100vh;
+	position: relative;
+  color: #191919;
+}
+
+a {
+    color: #0070c9;
+    transition: all 0.2s linear;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0070c9;
+}
+
+.noggin .social a {
+    color: #191919;
+}
+
+.noggin .social a:hover {
+    color: #0070c9;
+}
+
+hr {
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+    border-width: 0;
+    border-top: 1px solid #999;
+}
+
+.caret {
+    border-top: 6px solid #ddd;
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    content: "";
+    display: inline-block;
+    height: 0;
+    vertical-align: top;
+    width: 0;
+}
+
+.muted {
+    color: #666;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+svg {
+	max-width: 100%;
+	height: auto;
+}
+
+img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+}
+
+.wp-caption img {
+    max-width: 100%;
+}
+
+.wp-caption {
+    max-width: 100%;
+    background: #191919;
+    color: #fefefe;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.4),0 0 2px 0 rgba(0,0,0,.12);
+}
+
+.wp-caption p.wp-caption-text {
+    margin-bottom: 0;
+    color: #fefefe;
+}
+
+.bacon-and-eggs {
+    background: #fff;
+}
+
+.bacon-and-eggs a {
+    color: #0070c9;
+}
+
+.bacon-and-eggs a:hover {
+    text-decoration: underline;
+}
+
+.bacon-and-eggs h1 a,
+.bacon-and-eggs h2 a {
+    color: #333;
+}
+
+.bacon-and-eggs h1 a:hover,
+.bacon-and-eggs h2 a:hover {
+    text-decoration: none;
+    color: #0070c9;
+}
+
+.bacon-and-eggs h1 a i.fa,
+.bacon-and-eggs h2 a i.fa {
+    display: inline-block;
+    margin-left: 10px;
+	vertical-align: super;
+    color: #888;
+    transition: all 0.2s linear;
+    font-size: 60%;
+}
+
+.bacon-and-eggs h1 a:hover i.fa,
+.bacon-and-eggs h2 a:hover i.fa{
+    color: #0070c9;
+}
+
+.bacon-and-eggs .meta a {
+    color: #191919;
+}
+
+.bacon-and-eggs .meta a:hover {
+    text-decoration: none;
+    color: #0070c9;
+}
+
+.bacon-and-eggs .article-date {
+    margin-top: -18px;
+}
+
+.bacon-and-eggs .pager a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 4px 20px;
+	background: #191919;
+	color: #ccc;
+	border-radius: 4px;
+}
+
+.bacon-and-eggs .pager a:hover {
+    text-decoration: none;
+    color: #fff;
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,.16),0 0 4px 0 rgba(0,0,0,.12);
+}
+
+.meta.article-date a {
+    color: #191919;
+}
+
+.meta.article-date a:hover {
+    text-decoration: none;
+    color: #0070c9;
+}
+
+.post footer p.meta {
+    margin-bottom: 0;
+    position: relative;
+    padding-left: 26px;
+}
+
+.post footer p.meta .fa {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    color: #191919;
+}
+
+/**
+ * Panels
+ * -----------------------------------------------------------------------------
+ */
+.panel {
+	position: relative;
+	padding: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #999;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.16),0 0 2px 0 rgba(0,0,0,.12);
+}
+
+/**
+ * Alerts
+ * -----------------------------------------------------------------------------
+ */
+.alert {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.16),0 0 2px 0 rgba(0,0,0,.12);
+    padding: 10px 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.alert-success {
+    background: #4CAF50;
+}
+
+.alert-error {
+    background: #F44336;
+}
+
+.alert-info {
+    background: #03A9F4;
+}
+
+.alert p:last-child {
+    margin-bottom: 0;
+}
+
+/**
+ * Boxouts
+ * -----------------------------------------------------------------------------
+ */
+.boxout {
+    padding: 20px;
+    margin-bottom: 20px;
+	background: #191919;
+    color: #fff;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.16),0 0 2px 0 rgba(0,0,0,.12);
+}
+
+.boxout p:last-child {
+    margin: 0;
+}
+
+.boxout a {
+    color: #fff;
+    border-bottom: 1px solid #555;
+}
+
+.boxout a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/**
+ * Comments
+ * -----------------------------------------------------------------------------
+ */
+ol.comment-list {
+	list-style-type: none;
+}
+.comments {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	/*border-top: 1px solid #999;*/
+}
+.comments .comment {
+	margin-bottom: 20px;
+	margin-left: 0;
+	position: relative;
+	padding: 20px;
+	padding-left: 82px;
+	border: 1px solid #999;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.16),0 0 2px 0 rgba(0,0,0,.12);
+}
+
+.comments .comment.bypostauthor {
+	background: #191919;
+	color: #ccc;
+}
+
+.comments .comment.bypostauthor a {
+	color: #ccc;
+	text-decoration: underline;
+}
+
+.comments .comment.bypostauthor a:hover {
+	color: #fff;
+}
+
+.comments .comment p:last-child {
+    margin: 0;
+}
+
+.comments .pingback {
+	margin-bottom: 10px;
+}
+
+.comments .pingback.last {
+	margin-bottom: 40px;
+}
+
+.comment .avatar {
+	position: absolute;
+	top:20px;
+	left:20px;
+	/*border: 1px solid #999;*/
+}
+
+.button.comment-submit {
+	margin-bottom: 0;
+}
+
+/**
+ * Misc lists
+ */
+ul.date-list li {
+	position: relative;
+	list-style-type: none;
+	margin: 0 0 2px 0;
+}
+ul.date-list span {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #444;
+}
+ul.date-list a {
+	display: block;
+	margin-left: 100px;
+}
+@media only screen and (min-width : 768px) {
+    ul.date-list a {
+		margin-left: 116px;
+	}
+}
+@media only screen and (min-width : 992px) {
+    ul.date-list a {
+		margin-left: 126px;
+	}
+}
+ul.date-list a:hover {
+	text-decoration: underline;
+}
+
+ol.search-results {
+	margin-bottom: 40px;
+	list-style-type: none;
+}
+
+ol.search-results li {
+	margin-bottom: 30px;
+	margin-left: 0;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ddd;
+}
+
+ol.search-results li:last-child {
+	margin-bottom: 100px;
+	border-bottom: none;
+}
+
+ol.search-results li h3 {
+	font-weight: 700;
+	font-size: 120%;
+	margin: 0;
+	padding: 0;
+}
+
+ol.search-results li h3 a {
+	color: #191919;
+}
+
+ol.search-results li .url {
+	font-size: 80%;
+	color: #999;
+}
+
+ol.search-results li p {
+	font-size: 90%;
+	margin: 0;
+}
+
+ul.month {
+	list-style-type: none;
+}
+
+ul.month li {
+	margin-left: 20px;
+}
+
+ul.month li.date {
+	margin-left: 0;
+}
+
+ul.month li a {
+	color: #191919;
+}
+
+ul.month li a:hover {
+	text-decoration: none;
+  color: #0070c9;
+}
+
+ul.month li span {
+	display: inline-block;
+	margin-right: 10px;
+	color: #999;
+}
+
+.tags {
+    overflow: hidden;
+}
+.tags li {
+    display: block;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.tags li a {
+    color: #ccc;
+	background: #191919;
+	display: inline-block;
+	padding: 6px 10px;
+	font-size: 130%;
+}
+
+@media only screen and (min-width : 768px) {
+	.tags li a {
+		font-size: 200%;
+	}
+}
+
+@media only screen and (min-width : 1200px) {
+	.tags li a {
+		font-size: 300%;
+	}
+}
+
+.tags li a:hover {
+    color: #fff;
+	text-decoration: none;
+}
+
+/**
+ * Misc
+ */
+.corenominal-weekly-micro-inten {
+	display: none;
+}
+
+/**
+ * Sharing buttons
+ */
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0.5em
+}
+
+@media (min-width: 992px) {
+  .resp-sharing-button__link {
+    margin: 0 25px 0 0;
+  }
+}
+
+
+.resp-sharing-button__link:last-child {
+  margin-right: 0;
+}
+
+.resp-sharing-button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: top
+}
+
+.resp-sharing-button--small svg {
+  margin: 0;
+  vertical-align: middle
+}
+
+/* Non solid icons get a stroke */
+.resp-sharing-button__icon {
+  stroke: #fff;
+  fill: none
+}
+
+/* Solid icons get a fill */
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #fff;
+  stroke: none
+}
+
+.resp-sharing-button--twitter {
+  background-color: #191919
+}
+
+.resp-sharing-button--twitter:hover {
+  background-color: #2795e9
+}
+
+.resp-sharing-button--pinterest {
+  background-color: #191919
+}
+
+.resp-sharing-button--pinterest:hover {
+  background-color: #8c0615
+}
+
+.resp-sharing-button--facebook {
+  background-color: #191919
+}
+
+.resp-sharing-button--facebook:hover {
+  background-color: #2d4373
+}
+
+.resp-sharing-button--tumblr {
+  background-color: #191919
+}
+
+.resp-sharing-button--tumblr:hover {
+  background-color: #222d3c
+}
+
+.resp-sharing-button--reddit {
+  background-color: #191919
+}
+
+.resp-sharing-button--reddit:hover {
+  background-color: #3a80c1
+}
+
+.resp-sharing-button--google {
+  background-color: #191919
+}
+
+.resp-sharing-button--google:hover {
+  background-color: #c23321
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #191919
+}
+
+.resp-sharing-button--linkedin:hover {
+  background-color: #046293
+}
+
+.resp-sharing-button--email {
+  background-color: #191919
+}
+
+.resp-sharing-button--email:hover {
+  background-color: #5e5e5e
+}
+
+.resp-sharing-button--xing {
+  background-color: #191919
+}
+
+.resp-sharing-button--xing:hover {
+  background-color: #114c4c
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #191919
+}
+
+.resp-sharing-button--whatsapp:hover {
+  background-color: #1da851
+}
+
+.resp-sharing-button--hackernews {
+background-color: #191919
+}
+.resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {   background-color: #FB6200 }
+
+.resp-sharing-button--vk {
+  background-color: #191919
+}
+
+.resp-sharing-button--vk:hover {
+  background-color: #43648c
+}
+
+.resp-sharing-button--facebook {
+  background-color: #191919;
+  border-color: #191919;
+}
+
+.resp-sharing-button--facebook:hover,
+.resp-sharing-button--facebook:active {
+  background-color: #2d4373;
+  border-color: #2d4373;
+}
+
+.resp-sharing-button--twitter {
+  background-color: #191919;
+  border-color: #191919;
+}
+
+.resp-sharing-button--twitter:hover,
+.resp-sharing-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
+
+.resp-sharing-button--google {
+  background-color: #191919;
+  border-color: #191919;
+}
+
+.resp-sharing-button--google:hover,
+.resp-sharing-button--google:active {
+  background-color: #c23321;
+  border-color: #c23321;
+}
+
+@media (min-width: 992px) {
+  .resp-sharing-button__link_google {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .resp-sharing-button__link_google {
+    display: inline-block;
+  }
+}
+
+.resp-sharing-button--reddit {
+  background-color: #191919;
+  border-color: #191919;
+}
+
+.resp-sharing-button--reddit:hover,
+.resp-sharing-button--reddit:active {
+  background-color: #3a80c1;
+  border-color: #3a80c1;
+}
+
+.resp-sharing-button--hackernews {
+  background-color: #191919;
+  border-color: #191919;
+}
+
+.resp-sharing-button--hackernews:hover
+.resp-sharing-button--hackernews:active {
+  background-color: #FB6200;
+  border-color: #FB6200;
+}
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

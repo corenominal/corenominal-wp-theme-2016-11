@@ -12,29 +12,24 @@ if ( ! defined( 'WPINC' ) ) { die('Direct access prohibited!'); }
  *   Twitter: @corenominal
  *   From: Lincoln, United Kingdom
  */
- get_header();
- ?>
-
+get_header();
+the_post();
+?>
 <div class="header-page header-gradient">
     <div class="container">
-        <h1 class="small"><?php bloginfo('description'); ?></h1>
+        <h1><?php the_title() ?></h1>
     </div>
 </div>
 
  <div class="bacon-and-eggs">
      <div class="container">
 		<div class="row">
-            <div class="col-md-7 post-list">
- <?php
- // The loop
- while ( have_posts() ) :
- the_post();
- $categories = get_the_category();
- $category = $categories[0]->slug;
- require get_template_directory() . '/article_' . $category . '.php';
- endwhile;
- require get_template_directory() . '/pager.php';
- ?>
+            <div class="col-md-7">
+             <?php
+
+             require get_template_directory() . '/article_page.php';
+             comments_template();
+             ?>
             </div>
 
             <?php get_sidebar(); ?>

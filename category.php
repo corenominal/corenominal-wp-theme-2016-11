@@ -17,7 +17,7 @@ if ( ! defined( 'WPINC' ) ) { die('Direct access prohibited!'); }
 
 <div class="header-page header-gradient">
     <div class="container">
-        <h1 class="small"><?php bloginfo('description'); ?></h1>
+        <h1>Category: <?php echo single_cat_title( '', false ) ?></h1>
     </div>
 </div>
 

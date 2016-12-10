@@ -1,0 +1,23 @@
+a.btn {
+    display: inline-block;
+    background: #fff;
+    color: #191919;
+    padding: 4px 0;
+    width: 100%;
+    border: 2px solid #191919;
+    text-align: center;
+    text-transform: uppercase;
+}
+a.btn:hover {
+    border: 2px solid #191919;
+    color: #fff;
+    background: #191919;
+    text-decoration: none;
+}
+a.btn.btn-github-clone {
+    width: 49%;
+    border-right: 0px;
+}
+a.btn.btn-github-download {
+    width: 49%;
+}

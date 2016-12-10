@@ -1,3 +1,7 @@
+input {
+    -webkit-appearance: none;
+}
+
 .button,
 button,
 input[type="submit"],

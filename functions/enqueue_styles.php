@@ -50,5 +50,10 @@ function corenominal_enqueue_styles()
         wp_enqueue_style( '404', get_template_directory_uri() . '/css/404.css', false );
     }
 
+    if( is_page_template( 'page_pwgenweb.php' ) )
+    {
+        wp_enqueue_style( 'pwgen_web_css', get_template_directory_uri() . '/css/page_pwgenweb.css', false );
+    }
+
 }
 add_action( 'wp_enqueue_scripts', 'corenominal_enqueue_styles' );

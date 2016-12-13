@@ -96,6 +96,13 @@ ol li {
     border-bottom: 4px solid #191919;
 }
 
+.boxout h1:first-child,
+.boxout h2:first-child,
+.boxout h3:first-child,
+.boxout h4:first-child  {
+    border-bottom: 4px solid #fff;
+}
+
 .post {
     font-size: 16px;
 }

@@ -1,0 +1,54 @@
+.pwgenWEB {
+	margin-bottom: 20px;
+}
+
+input.password {
+	width: 100%;
+	font-size: 28px;
+	line-height: 28px;
+	height: 48px;
+
+	font-family: "Menlo", "Consolas", "Bitstream Vera Sans Mono", "DejaVu Sans Mono", "Monaco", monospace;
+}
+
+input.password.success,
+input.password.success:active,
+input.password.success:focus {
+	border-color: #4CAF50;
+	background: #eaffeb;
+}
+
+
+.pwgen-button {
+	width: 100%;
+}
+
+@media only screen and (min-width : 1200px) {
+	.pwgen-button {
+		width: auto;
+	}
+}
+
+.header-page span {
+	display: block;
+}
+
+@media only screen and (min-width : 1000px) {
+	.header-page h1 {
+		font-size: 64px;
+	}
+
+	.header-page span {
+		display: inline-block;
+	}
+}
+
+@media only screen and (min-width : 1200px) {
+	.header-page h1 {
+		font-size: 76px;
+	}
+}
+
+.boxout {
+	margin-top: 40px;
+}

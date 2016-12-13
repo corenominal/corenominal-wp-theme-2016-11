@@ -88,7 +88,11 @@ jQuery( document ).ready( function( $ )
 
     $( '#logo' ).mouseout( function()
     {
-      clearTimeout( foo );
+      if( foo != undefined )
+      {
+      	clearTimeout( foo );
+      }
+      	
     });
 
     /**

@@ -32,7 +32,7 @@ the_post();
              ?>
             </div>
 
-            <?php get_sidebar(); ?>
+            <?php get_sidebar( 'project' ); ?>
 
         </div>
     </div>

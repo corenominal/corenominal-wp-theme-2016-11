@@ -24,7 +24,7 @@ the_post();
  <div class="bacon-and-eggs">
      <div class="container">
 		<div class="row">
-            <div class="col-md-6 pwgenWEB">
+            <div class="col-md-7 pwgenWEB">
              
                 <label class="label"> Password:
                 <input type="text" id="password" class="full-width password">
@@ -61,10 +61,14 @@ the_post();
 
             </div>
 
-            <div class="col-md-5 col-md-offset-1">
+            <div class="col-md-4 col-md-offset-1">
+                
+                <?php require get_template_directory() . '/sidebar-inc-shareit.php' ?>
+
                 <div class="panel">
                     <?php require get_template_directory() . '/article_page.php' ?>
                 </div>
+
             </div>
 
         </div>

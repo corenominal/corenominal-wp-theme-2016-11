@@ -38,6 +38,8 @@ jQuery( document ).ready( function( $ )
 		{
 			$( '#symbols' ).removeAttr( 'checked' );
 		}
+
+		getPassword();
 	}
 
 	function getPassword()
@@ -85,7 +87,6 @@ jQuery( document ).ready( function( $ )
 		})
 		.done(function( data ) {
 			$( '#password' ).val( data.password );
-			$( '#password' ).focus();
 			$( '.pwgen-button' ).removeProp( 'disabled' );
 			$( '#password' ).addClass( 'success' );
 			setTimeout(function() {
@@ -98,7 +99,7 @@ jQuery( document ).ready( function( $ )
 	}
 
 	getSettings();
-	getPassword();
+	
 
 	$( document ).on( 'click', '#generate', function(e)
 	{

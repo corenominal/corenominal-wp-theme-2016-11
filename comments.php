@@ -30,18 +30,18 @@ $fields =  array(
 
   'author' =>
     '<label for="author">Name *</label> ' .
-    '<input id="author" placeholder="What do they call you?" class="full-width" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) .'">',
+    '<input id="author" placeholder="What do they call you?" class="full-width" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) .'" required>',
 
   'email' =>
     '<label for="email">Email *</label> ' .
-    '<input id="email" placeholder="foo@example.com" class="full-width" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) .'">',
+    '<input id="email" placeholder="foo@example.com" class="full-width" name="email" type="email" value="' . esc_attr(  $commenter['comment_author_email'] ) .'" required>',
 
   'url' =>
     '<label for="url">Website</label>' .
     '<input id="url" class="full-width" name="url" type="text" placeholder="https://example.com" value="' . esc_attr( $commenter['comment_author_url'] ) .'">',
 );
 
-$comment_field = '<label for="comment">Comment *</label><textarea id="comment" placeholder="The place to write witty, insightful and humorous comments." class="full-width" name="comment" rows="12" aria-required="true"></textarea>';
+$comment_field = '<label for="comment">Comment *</label><textarea id="comment" placeholder="The place to write witty, insightful and humorous comments." class="full-width" name="comment" rows="12" aria-required="true" required></textarea>';
 
 $args = array(
     'fields'                =>  $fields,

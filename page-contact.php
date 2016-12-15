@@ -35,10 +35,10 @@ the_post();
 
                         <div class="col-md-12">
                             <label for="fullname">Your Name</label>
-                            <input class="full-width input" type="text" placeholder="What do they call you?" id="name">
+                            <input class="full-width input" type="text" placeholder="What do they call you?" id="name" required>
 
                             <label for="email">Your email</label>
-                            <input class="full-width input" type="email" placeholder="foo@example.com" id="email">
+                            <input class="full-width input" type="email" placeholder="foo@example.com" id="email" required>
 
                             <label for="enquiry">Enquiry</label>
                             <select class="full-width input" id="enquiry">
@@ -47,7 +47,7 @@ the_post();
                             </select>
 
                             <label for="message">Message</label>
-                            <textarea class="full-width input" placeholder="Hello ..." id="message"></textarea>
+                            <textarea class="full-width input" placeholder="Hello ..." id="message" required></textarea>
 
                             <input type="hidden" id="form" value="71c8aefb2c33764ca6b89864524a4fb2ee6ecf03">
                             <input type="hidden" id="security" value="<?php echo wp_create_nonce( "wp_rest" ) ?>">

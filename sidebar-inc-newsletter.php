@@ -57,7 +57,7 @@ if ( ! defined( 'WPINC' ) ) { die('Direct access prohibited!'); }
 <h3 class="sr-only">corenominal Weekly</h3>
 <p>Never miss a post, sign-up below for my weekly newsletter.</p>
 <label for="mce-EMAIL">Email Address </label>
-<input type="email" placeholder="foo@example.com" value="" name="EMAIL" class="required email full-width" id="mce-EMAIL">
+<input type="email" placeholder="foo@example.com" value="" name="EMAIL" class="required email full-width" id="mce-EMAIL" required>
 
 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 <input class="sr-only" type="text" name="b_c836dde30e2b8a131a891ada1_bff4b272e4" tabindex="-1" value="">
